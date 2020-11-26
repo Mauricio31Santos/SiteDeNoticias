@@ -1,0 +1,45 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#top ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#top ul li {
+    float: left;
+}
+
+#top ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(/image/divisor.png) no-repeat left center;
+}
+
+#top ul .primeiro a {
+    background: none;
+}
+
+#top ul a:hover {
+    color: #69001d;
+}
+
+body.home #navigation a#home,
+body.brasil #navigation a#brasil,
+body.internacional #navigation a#internacional,
+body.economia #navigation a#economia,
+body.saude #navigation a#saude,
+body.ciencia #navigation a#ciencia,
+body.fotos #navigation a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: pointer;
+}
